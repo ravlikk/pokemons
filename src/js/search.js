@@ -1,10 +1,10 @@
-import getPockemon from "./getPockemon";
+import getPockemon from "./getPockemon.js";
 
 const err = document.querySelector(".err__container");
 const input = document.querySelector(".input");
-const submit = document.querySelector(".btn-sumbit");
+const submit = document.querySelector(".fotm");
 
-submit.addEventListener("click", (event, name, data) => {
+submit.addEventListener("submit", (event, name, data) => {
   event.preventDefault();
   err.style.display = "none";
   name = input.value;
