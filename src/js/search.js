@@ -2,7 +2,7 @@ import getPockemon from "./getPockemon.js";
 
 const err = document.querySelector(".err__container");
 const input = document.querySelector(".input");
-const submit = document.querySelector(".fotm");
+const submit = document.querySelector(".form");
 
 submit.addEventListener("submit", (event, name, data) => {
   event.preventDefault();
