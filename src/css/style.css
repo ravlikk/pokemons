@@ -16,6 +16,7 @@
     height: 50%;
     top: 50%;
     display: none;
+    z-index: 999;
 }
 
 .error-text {
