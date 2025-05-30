@@ -38,7 +38,7 @@ export default async function getPockemon(name, data) {
                     <p class="abilities">ability:</p>
                     <p class="ability">${abilities.join(" ")}</p>
                     </div>
-                <svg class="icon-heart"><use class="like" xlink:href="../img/symbol-defs.svg#icon-heart"></use></svg>        </div>
+                <svg class="icon-heart"><use class="like" xlink:href="./src/img/symbol-defs.svg#icon-heart"></use></svg>        </div>
     </li>`
       );
       VanillaTilt.init(document.querySelectorAll("[data-tilt]"), {}); 
