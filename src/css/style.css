@@ -55,12 +55,9 @@
 .input {
     width: 250px;
     height: 30px;
-    padding-left: 10px;
-    color: #fff;
+    padding-left: 10px;  
     box-shadow: 6px 6px 0 black;
     transform: skewX(-15deg);
-
-
 }
 
 .btn-sumbit {
