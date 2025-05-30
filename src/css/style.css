@@ -129,7 +129,7 @@
     height: 127px;
     margin-bottom: 20px;
     position: relative;
-    transform: translateZ(15px);
+    transform: translateZ(100px);
     will-change: transform;
 }
 
